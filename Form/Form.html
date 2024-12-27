@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+
+<head>
+    <title>Forms</title>
+    <link rel="stylesheet" href="Form.css">
+</head>
+<body>
+<!-- Form -->
+    <h2> Form </h2>
+    <form>
+        <label for="username"> Username</label>
+        <input type="text"> <br>
+        <br>
+        <label for="password"> Password</label>
+        <input type="password"><br>
+        <br>
+        <label for="number"> Number</label>
+        <input type="number"><br>
+        <br>
+        <label for="email"> Email</label>
+        <input type="email"><br>
+        <br>
+<!-- Radio Buttons -->
+        <h3> Choose A Gender </h3>
+        <input type="radio" name="gender"> Male <br>
+        <input type="radio" name="gender"> Female <br>
+        <input type="radio" name="gender"> Other <br>
+        <br>
+<!-- Checkboxes -->
+        <h3> Select A Gender </h3>
+        <input type="checkbox" name="gender"> Male <br>
+        <input type="checkbox" name="gender"> Female <br>
+        <input type="checkbox" name="gender"> Other <br>
+        <br>
+ <!-- Drop Down -->
+        <h3> Select A Car </h3>
+        <select name="cars" id="cars">
+            <option value="select"> Select </option>
+            <option value="rolls royce"> Rolls Royce </option>
+            <option value="bmw"> BMW </option>
+            <option value="skoda"> Skoda </option>
+        </select>
+            <br><br>
+<!-- Text area -->
+            <h3> Text area </h3>
+            <textarea name="comments" id="comments" rows="18" cols="18" maxlength="5"></textarea>
+            <br><br>
+<!-- Range -->
+        <h3> Range </h3>
+        <input type="range" name="volume">
+<!-- Numbers -->
+        <h3> Number </h3>
+        <input type="number" name="num">
+<!-- Submit -->
+            <input type="submit"><br>
+    </form>
+</body>
+</html>

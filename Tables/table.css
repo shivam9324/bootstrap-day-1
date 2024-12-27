@@ -1,0 +1,13 @@
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+td, th {
+    text-align: center;
+    padding: 10px;
+    border: 1px solid black;
+}
+
+tr:nth-child(odd) {
+    background-color: rgba(255, 0, 0, 0.493);
+}

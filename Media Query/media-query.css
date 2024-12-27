@@ -1,0 +1,14 @@
+div {
+}
+
+@media only screen and (max-width: 320px) {
+    div {
+    background-color: black;
+}
+}
+
+@media only screen and (max-width: 760px) {
+    div {
+        background-color: pink;
+    }
+}
